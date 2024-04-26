@@ -5,7 +5,7 @@
 # API
 
 http://tinyurl.com/api-create.php?url=
-Add this API Key to your Code to your Projects
+Add this API Key to your Javascript Code on your Projects
 
 # Here is Link for My Website
 
