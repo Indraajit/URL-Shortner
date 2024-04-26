@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="icon"
+        href="https://static.vecteezy.com/system/resources/previews/001/218/821/original/chain-link-icon-on-green-circle-graphic-illustration-vector.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="container">
+        <i class='bx bx-link-alt'></i>
+        <h1>URL Shortner</h1>
+        <label>Enter URL To Shorten :</label>
+        <input type="text" id="URL" placeholder="https://example.com" autocomplete="off">
+        <div class="buttons">
+            <button id="reload-btn">Reload</button>
+            <button id="short-btn">Short It</button>
+        </div>
+        <label>Shortened URL :</label>
+        <textarea id="shortendURL" rows="3" readonly></textarea>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
